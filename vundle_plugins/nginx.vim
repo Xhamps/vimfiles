@@ -1,0 +1,1 @@
+Plugin 'mutewinter/nginx.vim'

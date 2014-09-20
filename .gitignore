@@ -1,0 +1,10 @@
+.backup/
+!.backup/.gitkeep
+.tmp/
+!.tmp/.gitkeep
+.undo/
+!.undo/.gitkeep
+bundle/
+.DS_Store
+*.vimrc
+.netrwhist
