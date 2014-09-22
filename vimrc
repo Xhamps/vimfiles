@@ -15,3 +15,5 @@ source ~/.vim/config.vim
 "All of the Vim commands
 source ~/.vim/command.vim
 
+"All of the Vim functions
+source ~/.vim/functions.vim
