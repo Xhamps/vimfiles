@@ -12,5 +12,6 @@ filetype plugin indent on
 " All of the Vim configuration.
 source ~/.vim/config.vim
 
+"All of the Vim commands
 source ~/.vim/command.vim
 
