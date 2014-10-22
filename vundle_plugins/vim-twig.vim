@@ -1,1 +1,1 @@
-Plugin 'stephpy/vim-config'
+Plugin 'evidens/vim-twig'
