@@ -3,6 +3,8 @@
 " From Jeremy Mack, http://git.io/NlnPFw
 " ---------------------------------------------
 
+let mapleader = " "
+
 " ---------------
 " Color
 " ---------------
