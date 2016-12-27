@@ -1,6 +1,11 @@
 " Sudo write
 comm! W exec 'w !sudo tee % > /dev/null' | e!
 
+" Split view
+noremap <leader>v :vsplit
+noremap <leader>. <C-w><C-l>
+noremap <leader>, <C-w><C-h>
+
 " Edit and load vimrc
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
@@ -39,13 +44,6 @@ nmap <leader>j mz:m+<cr>`z
 nmap <leader>k mz:m-2<cr>`z
 vmap <leader>j :m'>+<cr>`<my`>mzgv`yo`z
 vmap <leader>k :m'<-2<cr>`>my`<mzgv`yo`z
-
-"if has("mac") || has("macunix")
-"    nmap <D-j> <M-j>
-"    nmap <D-k> <M-k>
-"    vmap <D-j> <M-j>
-"    vmap <D-k> <M-k>
-"endif
 
 " Save a file as root (,W)
 noremap <leader>W :w !sudo tee % > /dev/null<CR>
