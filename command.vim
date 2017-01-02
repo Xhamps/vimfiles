@@ -2,9 +2,11 @@
 comm! W exec 'w !sudo tee % > /dev/null' | e!
 
 " Split view
-noremap <leader>v :vsplit
-noremap <leader>. <C-w><C-l>
-noremap <leader>, <C-w><C-h>
+noremap <leader>v <C-w>v
+noremap <leader>b <C-w>S
+nnoremap <silent> <leader>= :exe "vertical resize +5"<CR>
+nnoremap <silent> <leader>- :exe "vertical resize -5"<CR>
+nnoremap <leader>0 <C-w>=
 
 " Edit and load vimrc
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
@@ -29,10 +31,10 @@ nnoremap H ^
 nnoremap L $
 
 " Move around easily
-noremap <leader>h <C-w>h
-noremap <leader>j <C-w>j
-noremap <leader>k <C-w>k
-noremap <leader>l <C-w>l
+noremap <leader><Left> <C-w>h
+noremap <leader><Down> <C-w>j
+noremap <leader><Up> <C-w>k
+noremap <leader><Right> <C-w>l
 
 " Create windows
 noremap <leader>v <C-w>v<C-w>l
