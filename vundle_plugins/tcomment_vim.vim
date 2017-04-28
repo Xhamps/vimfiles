@@ -1,3 +1,3 @@
 Plugin 'tomtom/tcomment_vim'
 
-map <Leader><Leader> :TComment<cr>
+map <Leader>/ :TComment<cr>
