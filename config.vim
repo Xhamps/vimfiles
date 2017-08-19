@@ -62,8 +62,8 @@ set clipboard+=unnamed " Yanks go on clipboard instead.
 set autowrite          " Writes on make/shell commands
 set ttimeout
 set ttimeoutlen=100    " Time to wait for a command (after leader for example).
-set nofoldenable       " Disable folding entirely.
-set foldlevelstart=99  " I really don't like folds.
+set foldmethod=indent
+set foldlevelstart=99
 set formatoptions=crql
 set iskeyword+=\$,-   " Add extra characters that arevalid parts of variables
 set nostartofline      " Don't go to the start of the lineafter some commands
