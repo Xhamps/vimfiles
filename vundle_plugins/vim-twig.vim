@@ -1,1 +1,0 @@
-Plugin 'evidens/vim-twig'

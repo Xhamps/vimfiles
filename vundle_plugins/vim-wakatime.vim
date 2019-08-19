@@ -1,1 +1,0 @@
-Plugin 'wakatime/vim-wakatime'

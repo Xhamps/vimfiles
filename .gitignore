@@ -8,3 +8,4 @@ bundle/
 .DS_Store
 *.vimrc
 .netrwhist
+autoload
